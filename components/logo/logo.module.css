@@ -1,0 +1,53 @@
+.animatedText {
+    display: inline-block;
+  }
+  
+  .animatedTrans {
+    font-size: 30px;
+    margin: 5px 0 0 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 10em;
+    animation: type 3s linear forwards;
+  }
+  
+  @keyframes type {
+    from {
+      width: 0;
+    }
+    to {
+      width: 10em;
+    }
+  }
+
+  .animatedText span {
+    display: inline-block;
+    animation: colorChange 3s linear infinite;
+    animation-delay: 1s; /* Delay of 7 seconds before starting the color change */
+  }
+  
+  /* Random color change with staggered delays */
+  @keyframes colorChange {
+    0% { color: #f65314; }
+    20% { color: #7cbb00; }
+    40% { color: #00a1f1; }
+    60% { color: #ffbb00; }
+    80% { color: #737373; }
+    100% { color: #00a1f1; }
+  }
+  
+  @keyframes type { 
+    from { width: 0; } 
+  }
+  
+  .animatedText span:nth-child(1) { animation-delay: 2s; }
+  .animatedText span:nth-child(2) { animation-delay: 2.1s; }
+  .animatedText span:nth-child(3) { animation-delay: 2.2s; }
+  .animatedText span:nth-child(4) { animation-delay: 2.3s; }
+  .animatedText span:nth-child(5) { animation-delay: 2.4s; }
+  .animatedText span:nth-child(6) { animation-delay: 2.5s; }
+  .animatedText span:nth-child(7) { animation-delay: 2.6s; }
+  .animatedText span:nth-child(8) { animation-delay: 2.7s; }
+  .animatedText span:nth-child(9) { animation-delay: 2.8s; }
+  
+  

@@ -1,0 +1,32 @@
+.sidebar {
+    background-color: #F3F5F9;
+    position: fixed;
+    top:98px;
+    left: 0;
+    height: 100%;
+    width: 300px; /* Adjust the width as per your design */
+    overflow-y: auto;
+    transition: left 0.3s ease-in-out; /* Smooth transition */
+    border: 2px solid #e6e6e6;
+}
+
+.sidebarItem {
+    border-radius: 0%;
+    padding: 15px;
+    color: gray;
+    font-size: 18px;
+}
+
+.sidebarItem .active {
+    border-left: 3px solid #24a0ed;
+    border-radius: 0%;
+    padding: 15px;
+    color: #24a0ed;
+}
+
+.sidebarItem:hover {
+    border-left: 3px solid #24a0ed;
+    border-radius: 0%;
+    padding: 15px;
+    color: #24a0ed;
+}

@@ -1,0 +1,16 @@
+.navbarBg {
+    background-color: #F3F5F9 !important;
+    width: 100% !important;
+    border: 2px solid #e6e6e6;
+    height: 100px;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  */
+}
+
+.navbarToggle {
+    font-size: 20px;
+}
+
+.navbarHr {
+    border: 1px solid #e6e6e6;
+    margin-top: 50px !important;
+}

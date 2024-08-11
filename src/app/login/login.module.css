@@ -1,0 +1,29 @@
+.loginContainer {
+    height: 100vh;   
+}
+
+.loginImage {
+    background-image: url('../../../static/images/loginwall.jpg');
+    background-size: cover;
+    /* background-position: center; */
+    height: 100%;
+    width: 100%;
+    border-top-right-radius: 45px;
+    border-bottom-right-radius: 45px;
+}
+
+.loginCentered {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginCard {
+    border: none !important;
+    width: 400px;
+}
+
+.loginSubHeading {
+    font-size: 12px ;
+}
